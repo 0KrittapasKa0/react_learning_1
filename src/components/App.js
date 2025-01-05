@@ -50,8 +50,8 @@ let Transaction = () => {
     <div>
       <ul className="style-none">
         <Items key={1} title={"ทดสอบ " + data[0].title} amount={data[0].amount} />
-        <Items key={2} title="ค่าเดินทาง" />
-        <Items key={3} amount="-700" />
+        <Items key={2} title="ค่าเดินทาง" amount="-250" />
+        <Items key={3} title="ค่าอาหาร" amount="-700" />
         <Items key={4} title="แฮกนาซ่ารับเงินดิจิตอล" amount="+9999999999999" />
         {/* {data.map((item) => {
           return <Items title={item.title} amount={item.amount} />;

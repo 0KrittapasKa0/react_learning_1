@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
+    "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react_learning_1": "file:",
     "react-dom": "^19.0.0",
